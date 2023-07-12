@@ -1,0 +1,79 @@
+body {
+    background-color:#B9EDDD;
+}
+
+h1 {
+    color: #569DAA;
+    font-size: 5em;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+h2 {
+    color: #569DAA;
+    font-family: Arial, Helvetica, sans-serif 
+    
+}
+
+h3 {
+    color: #569DAA;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+h5 {
+    color: #569DAA;
+}
+
+img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 200px;
+    width: 200px;
+  }
+
+p {
+    text-align: center;
+    color: white;
+    font-size: 1.25em;
+    font-family: Arial, Helvetica, sans-serif 
+}
+
+.dots {
+    width: 100px;
+    height: 10px;px;
+    margin:auto;
+    background:radial-gradient(circle closest-side,#EAF6F6 98%,#0000) 0/calc(100%/5) 100%;
+  }
+
+
+
+@media (min-width: 319px) and (max-width: 480px) {
+    .img {
+        width: fit-content;
+        height: fit-content;
+      }
+}
+@media (min-width: 481px) and (max-width: 1200px){
+    .img {
+        width: fit-content;
+        height: fit-content;
+      }
+}
+
+@media (min-width: 1200px) and (max-width: 1600px)
+
+@media screen and (max-width: 620px) {
+    .heading {
+      padding: 20px;
+      font-size: 20px;
+      text-align: auto;
+    }
+
+    .image {
+      width: fit-content;
+      height: fit-content;
+    }
+  }
